@@ -1,0 +1,20 @@
+# What is it?
+
+This is a tool to start a drag session for a file from the terminal. I found I was often running `open .` from within a terminal just so I could drag a file to an application, so this was to avoid that.
+
+# Building
+
+Compile it with
+
+`g++ drag.mm -framework Cocoa -o drag`
+
+Then you can move or symlink it to somewhere in your `PATH`.
+
+# Usage
+
+Just run:
+
+`drag «file»`
+
+You can use tildes and relative paths.
+

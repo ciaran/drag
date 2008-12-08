@@ -53,7 +53,7 @@ int main (int argc, char const* argv[])
 
 	if(!mouse_button_is_down())
 	{
-		fprintf(stderr, "Press the left mouse button\n");
+		fprintf(stderr, "Press the left mouse button to start the drag session.\n");
 		while(!mouse_button_is_down()) sleep(0);
 	}
 
