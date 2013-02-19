@@ -6,7 +6,7 @@ This is a tool to start a drag session for a file from the terminal. I found I w
 
 Compile it with
 
-`g++ drag.mm -framework Cocoa -o drag`
+`clang drag.mm -framework Cocoa -o drag`
 
 Then you can move or symlink it to somewhere in your `PATH`.
 
@@ -14,7 +14,7 @@ Then you can move or symlink it to somewhere in your `PATH`.
 
 Just run:
 
-`drag «file»`
+`drag file [file…]`
 
 You can use tildes and relative paths.
 
