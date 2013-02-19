@@ -44,7 +44,7 @@ int main (int argc, char const* argv[])
 			if(![[NSFileManager defaultManager] fileExistsAtPath:path])
 			{
 				fprintf(stderr, "The file “%s” does not exist. Ignoring.\n", [path UTF8String]);
-				exit(1);
+				continue;
 			}
 
 			[paths addObject:path];
